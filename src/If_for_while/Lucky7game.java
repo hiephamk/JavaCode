@@ -41,7 +41,7 @@ public class Lucky7game {
 		                }
 		                System.out.println("There are "+count+" number 7");
 
-		                // Kiểm tra kết quả
+		  //check the result
 		                if (count == 0) {
 		                    System.out.println("You failed!!");
 		                    //money += 3;
@@ -60,12 +60,12 @@ public class Lucky7game {
 	                }
 		            } 
 		            else {
-		                System.out.println("Cảm ơn bạn đã tham gia trò chơi!");
+		                System.out.println("Thank you for your playing!!");
 		                break;
 		            }
 		        }
 
-		        System.out.println("Kết thúc trò chơi!");
+		        System.out.println("Stopping game!!");
 		    }
 
 		    public static int[] ranNum(Random rd,int ranNum1) {
