@@ -15,6 +15,17 @@ public class Lucky7game {
 		        
 		        System.out.println("Game cost:");
 		        int cost = sc.nextInt();
+		        
+		        System.out.println("Reward of game: ");
+		        
+		        System.out.print("The special prize: ");
+		        int reward3 = sc.nextInt();
+		        
+		        System.out.print("The first prize: ");
+		        int reward2 = sc.nextInt();
+		        
+		        System.out.print("The second prize: ");
+		        int reward1 = sc.nextInt();
 
 		        while (money >= cost) {
 		            System.out.println("Your balance is: " + money+"€");
@@ -47,16 +58,16 @@ public class Lucky7game {
 		                    //money += 3;
 		                } 
 		                else if (count == 1) {
-		                    System.out.println("You won 3€ !!");
-		                    money += 3;
+		                    System.out.println("You won "+ reward1+ " € !!" );
+		                    money += reward1;
 		                } 
 		                else if (count == 2) {
-		                    System.out.println("You won 5€ !!");
-		                    money += 5;
+		                    System.out.println("You won "+ reward2+" € !!");
+		                    money += reward2;
 		                }
 		            else if (count == 3) {
-	                    System.out.println("You won 10€ !!");
-	                    money += 10;
+	                    System.out.println("You won "+ reward3+" € !!");
+	                    money += reward3;
 	                }
 		            } 
 		            else {
