@@ -1,4 +1,4 @@
-package ArrayExercises;
+package ArrayList;
 
 public class arrayInt {
 
